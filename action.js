@@ -21,3 +21,16 @@ calculateButton.addEventListener('click', () => {
     minutes.innerText = `${calcMinutes} minutes`;
     seconds.innerText = `${calcSeconds} seconds`;
 });
+
+
+// Exercise 2 Type of data
+//============================
+let episodeTitle = " The First Battle";
+let episodeDuration = 45;
+let hassBeenWatched = false;
+
+const frame = document.querySelector('#episode-info');
+
+frame.innerText = `Episode: ${episodeTitle} \n Duration: ${episodeDuration} min \n ${hassBeenWatched ? 'Already watched' : 'Not yet watched'}`
+
+//=============================
